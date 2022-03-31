@@ -41,7 +41,7 @@
   font-weight: 500;
   width: 100%;
   height: 3rem;
-  padding: 6rem 0 2rem 0;
+  padding: 5.5rem 0 2rem 0;
 
   border-style: none;
   border-bottom: solid 1px var(--color-1);
@@ -67,7 +67,7 @@ input:focus::-webkit-input-placeholder {
   color: var(--color-5);
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 2.5rem 0 1rem 0;
+  padding: 4rem 0 1rem 0;
 }
 
 .form textarea {
