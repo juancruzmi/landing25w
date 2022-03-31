@@ -1,0 +1,68 @@
+.products {
+  background: var(--color-2);
+  padding: 10rem 0 10rem 0;
+}
+.products__title {
+  text-align: center;
+  font-size: 2.1rem;
+  color: var(--primary-color);
+}
+.products__description {
+  text-align: center;
+  font-family: var(--font-1);
+  font-size: 3.9rem;
+  font-weight: 600;
+}
+.products__carousel {
+  padding: 0 15% 0 15%;
+}
+
+.carousel__card {
+  cursor: pointer;
+  background-color: white;
+  padding: 4rem 2rem 4rem 2rem;
+  margin: 5rem auto 0 auto;
+  width: 72.5%;
+  height: auto;
+  transition: 0.5s;
+  border-bottom: solid 8px var(--primary-color);
+}
+
+.carousel__card:hover {
+  box-shadow: 0px 8px 24px #7f9178;
+  transition: 0.5s;
+}
+
+.card__title {
+  font-family: var(--font-1);
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 2.9rem;
+}
+
+.card__list li {
+  list-style: none;
+}
+
+.card__list li {
+  margin: 2rem 0;
+}
+
+.slick-prev {
+  left: -6rem;
+}
+.slick-next {
+  right: -5rem;
+}
+.slick-slider button.slick-prev:before {
+  content: url(../statics/Icon\ awesome-chevron-left.svg);
+}
+.slick-slider button.slick-prev:hover {
+  opacity: 1;
+}
+.slick-slider button.slick-next:before {
+  content: url(../statics/Icon\ awesome-chevron-right.svg);
+}
+.slick-slider button.slick-next:hover {
+  opacity: 1;
+}

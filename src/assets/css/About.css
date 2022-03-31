@@ -1,0 +1,41 @@
+.about {
+  padding: 0 15% 0 15%;
+  margin: 8rem 0 8rem 0;
+  border-left: solid 24px var(--primary-color);
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image {
+  display: flex;
+  justify-content: end;
+  flex: 50%;
+  margin-right: 6.2rem;
+  height: auto;
+  width: 50px;
+}
+.about__content {
+  flex: 50%;
+  margin-left: 6.2rem;
+}
+
+.about__content p {
+  margin: 4.4rem 0 4.4rem 0;
+}
+
+.about__title span {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 960px) {
+  .about__image {
+    display: none;
+  }
+  .about__content {
+    margin: 0;
+  }
+}

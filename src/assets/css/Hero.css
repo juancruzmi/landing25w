@@ -1,0 +1,39 @@
+.slide__img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide__content {
+  margin: 35vh 0 0 10%;
+  top: 0;
+  position: absolute;
+  outline: none;
+  text-align: start;
+}
+
+.slide__description {
+  margin: 4rem 0 4rem 0;
+  color: var(--color-white);
+  line-height: 21px;
+}
+
+.carousel .control-dots {
+  display: inline-block;
+  width: max-content !important;
+  margin: 0 0 3% 10% !important;
+}
+
+.carousel .control-dots .dot {
+  opacity: 0.7 !important;
+}
+
+.carousel .control-dots .dot:hover {
+  background-color: var(--primary-color) !important;
+  opacity: 1 !important;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: var(--primary-color) !important;
+  opacity: 1 !important;
+}

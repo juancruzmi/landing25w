@@ -1,0 +1,49 @@
+.services {
+  padding: 0 10% 0 10%;
+  background-color: var(--color-3);
+}
+
+.services__container {
+  padding: 10rem 0 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services__content h2 {
+  text-align: center;
+}
+
+.services__content p {
+  text-align: center;
+  margin: auto;
+}
+
+.services__description {
+  max-width: 77rem;
+  padding: 1.7rem 0 8rem 0;
+}
+
+.services__offer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-column-gap: 9rem;
+  grid-row-gap: 4.5rem;
+}
+
+.services__card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 3.7rem;
+}
+
+.icon__title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: 0.29px;
+  text-align: center;
+  max-width: 20rem;
+}

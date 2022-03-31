@@ -1,0 +1,10 @@
+.form__error {
+  font-size: 12px;
+  color: red;
+  display: none;
+  margin-top: 5px;
+}
+
+input:invalid[focus="true"] ~ .form__error {
+  display: block;
+}
